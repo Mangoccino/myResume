@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+* {
+    border: solid pink 1px;
+}
+/*
+* padding: 5px 80px;
+*/
+
+/*Header Section*/
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: row wrap;
+    background-color: #6D696A;
+    padding: 5px 80px;
+}
+
+.Header h1 {
+    white-space: nowrap;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(229, 229, 229);
+
+}
+
+.header_links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: row wrap;
+}
+
+a {
+    padding: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: dotted rgb(229, 229, 229) 1px;
+    background-color: #6D696A;
+    text-decoration: none;
+
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header_links :nth-child(1):hover {
+    background-color: rgb(229, 229, 229);
+    color: #639dbb;
+}
+
+.header_links a:nth-child(1) {
+    color: #7fafc7;
+}
+
+.header_links :nth-child(2):hover {
+    background-color: rgb(229, 229, 229);
+    color: #4ed0c5;
+}
+.header_links a:nth-child(2) {
+    color: #5ed4ca;
+}
+
+.header_links :nth-child(3):hover {
+    background-color: rgb(229, 229, 229);
+    color: #ed1d69;
+}
+
+.header_links a:nth-child(3) {
+    color: #f47ba7;
+}
+
+/*About_Me Section*/
+.About_Me {
+    padding: 50px 120px;
+    background-color: #dae2df;
+}
+
+.About_Me h1 {
+    text-align: center;
+}
+
+.About_Me p {
+    display: flex;
+    justify-content: space-around;
+}
