@@ -2,9 +2,6 @@ body {
     margin: 0;
 }
 
-* {
-    border: solid pink 1px;
-}
 /*
 * padding: 5px 80px;
 */
@@ -15,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: row wrap;
-    background-color: #6D696A;
+    background-color: #0A3EAD;
     padding: 5px 80px;
 }
 
@@ -24,7 +21,7 @@ body {
     font-family: serif;
     font-weight: 600;
     font-size: 40px;
-    color: rgb(229, 229, 229);
+    color: #ECF1FE;
 
 }
 
@@ -39,8 +36,8 @@ a {
     padding: 10px;
     padding: 10px;
     margin: 10px;
-    border: dotted rgb(229, 229, 229) 1px;
-    background-color: #6D696A;
+    border: dotted #ECF1FE 1px;
+    background-color: #0A3EAD;
     text-decoration: none;
 
     font-family: 'Courier New';
@@ -49,7 +46,7 @@ a {
 }
 
 .header_links :nth-child(1):hover {
-    background-color: rgb(229, 229, 229);
+    background-color:#ECF1FE;
     color: #639dbb;
 }
 
@@ -58,7 +55,7 @@ a {
 }
 
 .header_links :nth-child(2):hover {
-    background-color: rgb(229, 229, 229);
+    background-color:#ECF1FE;
     color: #4ed0c5;
 }
 .header_links a:nth-child(2) {
@@ -66,7 +63,7 @@ a {
 }
 
 .header_links :nth-child(3):hover {
-    background-color: rgb(229, 229, 229);
+    background-color:#ECF1FE;
     color: #ed1d69;
 }
 
@@ -74,10 +71,19 @@ a {
     color: #f47ba7;
 }
 
+/*Hero Section*/
+.Hero {
+    background-color: #0A3EAD;
+}
+.Hero img {
+    width: auto;
+}
+
 /*About_Me Section*/
 .About_Me {
     padding: 50px 120px;
-    background-color: #dae2df;
+    background-color: #C3CBD5;
+    display: block;
 }
 
 .About_Me h1 {
